@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem laborum, eum praesentium atque ducimus qui fugiat beatae, similique in minima, vero provident? Consequuntur modi at a. Porro, suscipit sed.</p>
+    <hr> <!--línea horizontal-->
+    <h2>Segundo párrafo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt inventore facere natus iure maiores quas beatae saepe consequuntur cupiditate, hic minima voluptates culpa sed aliquam harum eius adipisci alias veritatis.</p>
+    <!-- esto es un comentario -->
+    <h2>Tercer párrafo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, id. <br> Magni expedita! Qui necessitatibus corporis ducimus, nisi eaque et ratione ab aspernatur quo eos ipsam sit, magni porro ea.</p>
+    <a target="_blank" href="https://www.google.com.ar"> Ir a Google </a> <br> <br>
+    <!--con target="_blank" el hipervínculo se abre en una pestaña nueva-->
+    <img src="fotohtml.jpg" width="400" /> <br>
+    
+    <h3>Formulario:</h3>
+    <form> 
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/> <br> <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/> <br> <br>
+        <label for="comentario">Comentarios:</label> <br>
+        <textarea cols="40" rows="8" id="comentario" name="comentario" placeholder="Ingrese Comentario"></textarea> <br>
+        <button type="button">Enviar</button>   
+    </form>
+
+    <h3>Lista:</h3> 
+    <ul> <!-- lista NO ordenada -->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <ol> <!-- lista ordenada -->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li> <br>
+        <li value="40">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li> <!--anido lista-->
+            <ol>
+                <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h3>Tabla:</h3> 
+    <table style="width: 200px;"">
+        <thead> <!--cabecera de la tabla-->
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+            </tr>
+        </thead>
+       <tbody>
+        <tr>
+            <td>$100</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>$200</td>
+            <td>XX</td>
+        </tr>
+       </tbody>
+    </table>
+</body>
+</html>
